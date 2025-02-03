@@ -9,5 +9,5 @@ def parse_config(file_path):
 
 if __name__ == "__main__":
     domain, chunk_size = parse_config('config.yaml')
-    print(f"Domain: {domain}")
-    print(f"Chunk Size: {chunk_size}")
+    print("Domain: {}".format(domain))
+    print("Chunk Size: {}".format(chunk_size))
