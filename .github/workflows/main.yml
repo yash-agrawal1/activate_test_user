@@ -13,4 +13,4 @@ jobs:
       - name: Trigger Jenkins Job
         run: |
           curl -X POST "https://non-prod-jenkins-mumbai.nyk00-int.network/job/usm-jobs/job/pipeline-activate-users-by-domain/build" \
-          --user "yash.agrawal1@nykaa.com:117d29e2be9ef37f9dc6eb4a06c0d22683"
+          --user "yash.agrawal1@nykaa.com:117d29e2be9ef37f9dc6eb4a06c0d22683" --insecure
