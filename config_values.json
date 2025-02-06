@@ -1,6 +1,11 @@
 {
-    "name": "John Doe",
-    "age": 30,
-    "email": "johndoe@example.com",
-    "isActive": true
+    "config_value": {
+        "L": [
+            { "S": "703475" },
+            { "S": "3137958" },
+            { "S": "27943832" },
+            { "S": "11513894" },
+            { "S": "15041762" }
+        ]
+    }
 }
